@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Arithmetic Operations</title>
+<link rel="stylesheet" href="styleees.css">
+</head>
+<body>
+  <h1>Arithmetic Operations</h1>
+  <form id="calculator">
+    Number 1:<input type="text" id="num1" required><br>
+    Number 2:<input type="text" id="num2" required><br>
+    <div class="operation-buttons">
+      <button type="button" onclick="performOperation('+')">ADD</button>
+      <button type="button" onclick="performOperation('-')">SUB</button>
+      <button type="button" onclick="performOperation('*')">MUL</button>
+      <button type="button" onclick="performOperation('/')">DIV</button>
+      <button type="button" onclick="performOperation('%')">MOD</button>
+</div> <br>
+    Get Result: <input type="display" id="result" readonly>
+  </form>
+  <script src="script1.js"></script>
+</body>
+</html>
